@@ -1,83 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flex properties explained</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="maincontainer">
-      <!-- /* Flex properties for container */ -->
-      <div class="container1">
-        <div class="item1" class="item">A</div>
-        <div class="item1" class="item">B</div>
-        <div class="item1" class="item">C</div>
-        <!-- <span> flex-direction: Row & Row-reversed</span> -->
-      </div>
-      <div class="container2">
-        <div class="item2" class="item">A</div>
-        <div class="item2" class="item">B</div>
-        <div class="item2" class="item">C</div>
-        <!-- <span> flex-direction: Column & Column-reversed</span> -->
-      </div>
-      <div class="container3">
-        <div class="item3" class="item">A</div>
-        <div class="item3" class="item">B</div>
-        <div class="item3" class="item">C</div>
-        <!-- <span> justify content: center</span> -->
-      </div>
-      <div class="container4">
-        <div class="item4" class="item">A</div>
-        <div class="item4" class="item">B</div>
-        <div class="item4" class="item">C</div>
-        <!-- <span>spacebetween</span> -->
-      </div>
-      <div class="container5">
-        <div class="item5" class="item">A</div>
-        <div class="item5" class="item">B</div>
-        <div class="item5" class="item">C</div>
-      </div>
-      <div class="container6">
-        <div class="item6">A</div>
-        <div class="item6">B</div>
-        <div class="item6">C</div>
-      </div>
-      <div class="container7">
-        <div class="item7">A</div>
-        <div class="item7">B</div>
-        <div class="item7">C</div>
-      </div>
-      <div class="container8">
-        <div class="item8">A</div>
-        <div class="item8">B</div>
-        <div class="item8">C</div>
-      </div>
-      <div class="container9">
-        <div class="item9">A</div>
-        <div class="item9">B</div>
-        <div class="item9">C</div>
-      </div>
-      <div class="container10">
-        <div class="item10">A</div>
-        <div class="item10">B</div>
-        <div class="item10">C</div>
-        <!-- <div class="item10">D</div>
-        <div class="item10">E</div> -->
-      </div>
 
-      <!-- /* Flex properties for items */ -->
-      <div class="container11">
-        <div class="item11" id="item1">A</div>
-        <div class="item11" id="item2">B</div>
-        <div class="item11" id="item3">C</div>
-      </div>
-      <div class="container12">
-        <div class="item12" id="item4">A</div>
-        <div class="item12" id="item5">B</div>
-        <div class="item12" id="item6">C</div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flex properties explained</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main class="maincontainer">
+    <!-- /* Flex properties for container */ -->
+    <div class="container1 container">
+      <div class="item1 item">A</div>
+      <div class="item1 item">B</div>
+      <div class="item1 item">C</div>
+      <span> flex-direction: Row & Row-reversed</span>
     </div>
-  </body>
+    <div class="container2 container">
+      <div class="item2 item">A</div>
+      <div class="item2 item">B</div>
+      <div class="item2 item">C</div>
+      <span> flex-direction: Column & Column-reversed</span>
+    </div>
+    <div class="container3 container">
+      <div class="item3 item">A</div>
+      <div class="item3 item">B</div>
+      <div class="item3 item">C</div>
+      <span> justify content: center</span>
+    </div>
+    <div class="container4 container">
+      <div class="item4 item">A</div>
+      <div class="item4 item">B</div>
+      <div class="item4 item">C</div>
+      <span> justify content:space-between</span>
+    </div>
+    <div class="container5 container">
+      <div class="item5 item">A</div>
+      <div class="item5 item">B</div>
+      <div class="item5 item">C</div>
+      <span> justify-content: space-evenly</span>
+    </div>
+    <div class="container6 container">
+      <div class="item6 item">A</div>
+      <div class="item6 item">B</div>
+      <div class="item6 item">C</div>
+      <span> justify-content: space-around</span>
+    </div>
+    <div class="container7 container">
+      <div class="item7 item">A</div>
+      <div class="item7 item">B</div>
+      <div class="item7 item">C</div>
+      <span> align-items: center</span>
+    </div>
+    <div class="container8 container">
+      <div class="item8 item">A</div>
+      <div class="item8 item">B</div>
+      <div class="item8 item">C</div>
+      <span> align-items: flex-end</span>
+    </div>
+    <div class="container9 container">
+      <div class="item9 item">A</div>
+      <div class="item9 item">B</div>
+      <div class="item9 item">C</div>
+      <span>align-items: flex-start</span>
+    </div>
+    <div class="container10 container">
+      <div class="item10 item">A</div>
+      <div class="item10 item">B</div>
+      <div class="item10 item">C</div>
+      <span>align-items: stretch</span>
+    </div>
+
+    <!-- /* Flex properties for items */ -->
+    <div class="container11 container">
+      <div class="item11 item" id="container11-sub1">A</div>
+      <div class="item11 item" id="container11-sub2">B</div>
+      <div class="item11 item" id="container11-sub3">C</div>
+      <span>order , flex-basis , flex-grow ,flex-shrink</span>
+    </div>
+    <div class="container12 container">
+      <div class="item12 item" id="container12-sub1">A</div>
+      <div class="item12 item" id="container12-sub2">B</div>
+      <div class="item12 item" id="container12-sub3">C</div>
+      <span>align-self: center , flex-end , flex-start</span>
+    </div>
+  </main>
+  <footer>
+    <p> copywrite &copy; <a href="https://github.com/JuveriaD">DJ</a>| Flexbox-2021 |<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">Ref- MDN</a></p>
+  </footer>
+</body>
+
 </html>
